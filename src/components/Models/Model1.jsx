@@ -30,7 +30,7 @@ const DynamicMaterialModel = ({
           child.material = new THREE.MeshStandardMaterial({
             color: child.material.color,
             roughness: 0.5,
-            metalness: 0.5,
+            metalness: 0.7,
           });
         }
 
